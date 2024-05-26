@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'feather';
+    src: url('../fonts/feather.eot');
+    src: url('../../fonts/feather.eot') format('embedded-opentype'),
+    url('../fonts/feather.ttf') format('truetype'),
+    url('../fonts/feather.woff') format('woff'),
+    url('../images/feather.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*This file was exported by "Export WP Page to Static HTML" plugin which created by ReCorp (https://myrecorp.com) */
