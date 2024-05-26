@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('EBGaramond-Regular')  format('truetype');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('EBGaramond-Italic')  format('truetype');
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../fonts/../fonts/EBGaramond-Medium.ttf')  format('truetype');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../fonts/../fonts/EBGaramond-MediumItalic.ttf')  format('truetype');
+    font-weight: 500;
+	font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../fonts/../fonts/EBGaramond-Medium.ttf')  format('truetype');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../fonts/../fonts/EBGaramond-MediumItalic.ttf')  format('truetype');
+    font-weight: 500;
+	font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../fonts/EBGaramond-SemiBold.ttf')  format('truetype');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../fonts/EBGaramond-SemiBoldItalic.ttf')  format('truetype');
+    font-weight: 600;
+	font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../fonts/EBGaramond-Bold.ttf')  format('truetype');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../fonts/EBGaramond-BoldItalic.ttf')  format('truetype');
+    font-weight: 700;
+	font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../fonts/EBGaramond-ExtraBold.ttf')  format('truetype');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../fonts/EBGaramond-ExtraBoldItalic.ttf')  format('truetype');
+    font-weight: 800;
+	font-style: italic;
+    font-display: swap;
+}
+
+
+
+/*This file was exported by "Export WP Page to Static HTML" plugin which created by ReCorp (https://myrecorp.com) */

@@ -1,0 +1,86 @@
+.delivery-return-modal{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10000;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.delivery-return-modal .bg-overlay{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(11, 11, 11, 0.6);
+}
+.delivery-return-modal .inner-modal{
+	position: absolute;
+	top: 120px;
+	left: 20px;
+	right: 20px;
+	height: calc(100% - 240px);
+	background-color: #fff;
+	max-width: 900px;
+	margin: 0 auto;
+	z-index: 9;
+	padding: 60px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	-ms-overflow-style: none;
+  	scrollbar-width: none;
+}
+
+.delivery-return-modal.is-open,
+.delivery-return-modal.is-open .bg-overlay{
+	opacity: 1;
+	visibility: visible;
+}
+
+.delivery-return-modal .inner-modal::-webkit-scrollbar {
+  	display: none;
+}
+
+.delivery-return-modal .button-close{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #111;
+	height: 40px;
+	width: 40px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.delivery-return-modal .button-close svg path{
+	fill: #fff;
+}
+
+.delivery-return-modal .modal-content table{
+	width: 100%;
+}
+
+.delivery-return-button{
+	border-bottom: 1px solid;
+}
+.july-delivery-return{
+	display: flex;
+	align-items: center;
+	margin-bottom: 16px;
+}
+.july-delivery-return svg{
+	margin-right: 16px;
+}
+
+@media (max-width: 767px){
+	.delivery-return-modal .inner-modal{
+		padding: 60px 20px 20px;
+	}
+}
+/*This file was exported by "Export WP Page to Static HTML" plugin which created by ReCorp (https://myrecorp.com) */

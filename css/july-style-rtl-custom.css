@@ -1,0 +1,77 @@
+.rtl {
+	direction: rtl;
+}
+
+.desktop-menu .sm-simple:not(.sm-vertical) .has-mega-menu .mega-menu{
+	margin-left: 0 !important;
+}
+
+.july_breadcrumb li + li:before {
+    content: '\f104';
+}
+
+.july-swiper-slider .swiper-nav-buttons, .july-swiper .swiper-nav-buttons {
+    flex-direction: row-reverse;
+}
+
+.fa-arrow-right:before {
+    content: "\f060";
+}
+
+.form-group .nice-select:after, .woocommerce-ordering .nice-select:after {
+    border-left: transparent;
+    border-right: 1px solid #111111;
+	right: auto;
+}
+
+.filters-wrapper .filter-panel.product-cat .filter-name {
+    float: right;
+}
+
+.woosc-btn:before,
+.woocommerce div.product div.summary .social-share .list-social-icon span:before{
+	content: none;
+}
+
+.woocommerce div.product div.summary .social-share .list-social-icon span::after{
+	content: '\f1e0';
+    font-family: "Font Awesome 5 Pro";
+    margin-left: 8px;
+}
+
+.hint--right::before, .hint--right::after {
+	left: 100%;
+	bottom: 50%;
+	right: auto;
+}
+
+.hint--right:hover::after {
+	-webkit-transform: translateX(8px);
+	-moz-transform: translateX(8px);
+	transform: translateX(8px);
+}
+
+.hint--right::before,
+.hint--right:hover::before {
+	-webkit-transform: translateX(8px) rotate(180deg);
+	-moz-transform: translateX(8px) rotate(180deg);
+	transform: translateX(8px) rotate(180deg);
+}
+
+.woosc-btn::after {
+	font-size: 18px;
+}
+
+.woosc-btn.woosc-added::after {
+	font-size: 0;
+}
+
+.woosc-btn::before, .woosc-btn.woosc-btn-added::before, .woosw-btn.woosw-added::before {
+	margin: 0;
+}
+
+.product-tabs-wrapper .product-tabs-filter.layout-02 .nice-select:after{
+	right: auto;
+}
+
+/*This file was exported by "Export WP Page to Static HTML" plugin which created by ReCorp (https://myrecorp.com) */
